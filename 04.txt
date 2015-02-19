@@ -1,0 +1,24 @@
+---Part 4: Dissecting AP-Client connections---
+-Change the channel for mon0
+	-# iwconfig mon0 channel 1
+	-Probe request
+		-Sent for client to get informations on the AP
+		-"IEEE 802.11 wireless LAN management frame
+			-Tagged parameters
+				-SSID parameter: broadcast
+		-two types: NULL (broadcast), directed in which the client queries a specific AP
+	-Probe response
+		-contains SSID
+	-Authentication requests
+		-from client to AP
+		-"Authentication SEQ: x"
+	-Authentifaction response
+		-sucessful code
+		-from AP to client
+		-"Authentication SEQ: x+1"
+	-Association request
+		-to the AP
+		-various parameters
+	-Association response
+	-following ARP packets since the client is in the LAN
+
