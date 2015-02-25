@@ -1,6 +1,6 @@
 Part 3: Pwning Beacon Frames
 	-WLAN packets
-		-LAN: Ethernet, IP, TCP/UDP
+		-LAN: onyl a few variations: Ethernet (layer 2), IP (layer 3), TCP/UDP (layer 4)
 		-WLAN
 			-header
 			-types: management, control & data
@@ -17,5 +17,5 @@ Part 3: Pwning Beacon Frames
 					-Tag vendor specific to get encryption type (ex: WPA)
 				-Plain text so you can inject arbitrary beacon frames (raw sockets)
 					-outil MDK (murder that kill :|)
-						-beacon flood
-						-# mdk3 mon0 b -n $SSID
+						-beacon flood (create "fake" AP)
+						# mdk3 mon0 b -n $SSID
