@@ -1,4 +1,6 @@
--Wireless sniffing-
+Part 2: Wireless sniffing
+========
+
 	-Modes
 		-Monitor (wireless): accepts all paquets regardless of the network and receiver
 		-Promiscious (wired & wireless): sniffing only in the network
