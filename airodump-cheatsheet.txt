@@ -1,0 +1,10 @@
+[a]: Select active areas by cycling through these display options: AP+STA; AP+STA+ACK; AP only; STA only
+[d]: Reset sorting to defaults (Power)
+[i]: Invert sorting algorithm
+[m]: Mark the selected AP or cycle through different colors if the selected AP is already marked
+[r]: (De-)Activate realtime sorting - applies sorting algorithm everytime the display will be redrawn
+[s]: Change column to sort by: First seen; BSSID; PWR level; Beacons; Data packets; Packet rate; Channel; Max data rate; Encryption; Strongest Ciphersuite; Authentication; ESSID
+[SPACE]: Pause display redrawing/ Resume redrawing
+[TAB]: Enable/Disable scrolling through AP list
+[UP]: Select the AP prior to the currently marked AP in the displayed list if available
+[DOWN]: Select the AP after the currently marked AP if available
