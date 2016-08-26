@@ -1,4 +1,4 @@
-SWSE
+SecurityTube
 ========
 
-Notes for the SecurityTube course on wireless security
+Repo to regroup my notes for [SecurityTube](http://www.securitytube.net/) courses on various security fields.
